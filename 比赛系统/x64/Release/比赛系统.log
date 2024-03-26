@@ -1,0 +1,32 @@
+﻿  Management.cpp
+D:\2022\项目\Project1\Management.cpp(300,19): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\2022\Studio\VC\Tools\MSVC\14.39.33519\include\numeric(37,26): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+D:\2022\Studio\VC\Tools\MSVC\14.39.33519\include\numeric(37,26): warning C4244:         with
+D:\2022\Studio\VC\Tools\MSVC\14.39.33519\include\numeric(37,26): warning C4244:         [
+D:\2022\Studio\VC\Tools\MSVC\14.39.33519\include\numeric(37,26): warning C4244:             _Ty=float
+D:\2022\Studio\VC\Tools\MSVC\14.39.33519\include\numeric(37,26): warning C4244:         ]
+  (编译源文件“../Project1/Management.cpp”)
+  D:\2022\Studio\VC\Tools\MSVC\14.39.33519\include\numeric(37,26):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\2022\项目\Project1\Management.cpp(177,21):
+  	查看对正在编译的函数 模板 实例化“_Ty std::accumulate<std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>,float>(const _InIt,const _InIt,_Ty)”的引用
+          with
+          [
+              _Ty=float,
+              _InIt=std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>
+          ]
+  	D:\2022\Studio\VC\Tools\MSVC\14.39.33519\include\numeric(46,17):
+  	查看对正在编译的函数 模板 实例化“_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)”的引用
+          with
+          [
+              _Ty=float,
+              _InIt=std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>,
+              _Fn=std::plus<void>
+          ]
+  
+  正在生成代码
+  8 of 808 functions ( 1.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  比赛系统.vcxproj -> D:\2022\项目\比赛系统\x64\Release\比赛系统.exe
